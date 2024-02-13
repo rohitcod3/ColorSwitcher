@@ -28,5 +28,10 @@ buttons.forEach(function (button){
         change.style.color = 'black';
         change2.style.color = 'black';
      }
+     if(e.target.id ==='purple'){
+      body.style.backgroundColor=e.target.id;
+      change.style.color='black';
+      change2.style.color='black';
+     }
     });
 });
